@@ -1,0 +1,17 @@
+/* WordPress-specific additions */
+.admin-bar .mainnav{top:32px}
+@media (max-width:782px){.admin-bar .mainnav{top:46px}}
+@media (max-width:600px){.admin-bar .mainnav{top:0}}
+.form .hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;opacity:0}
+.form .err{display:none;margin-top:14px;padding:12px 16px;background:#fdecec;border-left:4px solid var(--red);color:#8a1c14;font-weight:500}
+.form .send[disabled]{opacity:.6;cursor:wait}
+.s24-page{min-height:50vh}
+.s24-page article{margin-bottom:40px}
+.s24-content{max-width:820px;font-size:17px;line-height:1.65}
+.s24-content p,.s24-content ul,.s24-content ol{margin-bottom:1em}
+.s24-content ul,.s24-content ol{padding-left:1.4em}
+.s24-content a{color:var(--red);text-decoration:underline}
+.s24-list-title{font-family:"Montserrat",sans-serif;font-size:24px;margin-bottom:10px}
+.nav-links{display:flex;gap:10px}
+.nav-links .page-numbers{padding:6px 12px;border:1px solid var(--line)}
+.nav-links .current{background:var(--red);color:#fff;border-color:var(--red)}

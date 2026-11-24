@@ -1,0 +1,10 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/",
+  "preferredVersions": { "php": "8.2", "wp": "latest" },
+  "login": true,
+  "siteOptions": { "blogname": "Склад24", "blogdescription": "Техніка для складу" },
+  "steps": [
+    { "step": "activateTheme", "themeFolderName": "sklad24" }
+  ]
+}
